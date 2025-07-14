@@ -51,28 +51,7 @@ locomotiveAnimation()
       scrub: true,
     },
   });
-let videoCon = document.querySelector("#video-container")
-let playBtn = document.querySelector("#play")
-
-videoCon.addEventListener("mouseenter" , function (){
-    gsap.to(playBtn,{
-        scale : 1 ,
-        opacity : 1
-    })
-})
-videoCon.addEventListener("mouseleave" , function(){
-    gsap.to(playBtn,{
-        scale:0,
-        opacity:0
-    })
-})
-videoCon.addEventListener("mousemove" , function(dets){
-    gsap.to(playBtn,{
-        left:dets.x-50,
-        top:dets.y-50
-        })
-})
-
+let imgCon = document.querySelector("#img-container")
 
 gsap.from("#page1 h1",{
     y:100,
@@ -81,7 +60,7 @@ gsap.from("#page1 h1",{
     duration:0.9,
     stagger:0.3
 })
-gsap.from("#page1 #video-container",{
+gsap.from("#page1 #img-container",{
     scale:0.9,
     opacity:0,
     delay:1.4,
@@ -101,4 +80,11 @@ gsap.from("#page2 .elem",{
     delay:1.4,
     duration:1.8,
     y:10
+})
+gsap.from("#nav",{
+    y:-100,
+    opacity:0,
+    delay:0.5,
+    duration:0.3,
+    stagger:0.1
 })
