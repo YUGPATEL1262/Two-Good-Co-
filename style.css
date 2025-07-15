@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: futura;
+
     
 }
 *::selection{
@@ -28,9 +28,10 @@ body{
 
 }
 #page1 h1{
-    font-size: 25vh;
+    font-size: 14.2vw;
     line-height: 23vh;
-    font-weight: 600;
+    font-weight: 900;
+    font-family: futura;
 }
 #img-container{
     height: 85vh;
@@ -58,15 +59,17 @@ body{
 
 #text h2{
     /* margin: 7vh; */
-    font-size: 6vh;
+    font-size: 4vw;
+    font-family: futura;
 }
 #text h4{
     font-weight: lighter;
-    font-size: 2vh;
+    font-size: 1vw;
     line-height: 10vh;
+    font-family: gilroy;
 }
 #text .line{
-    height: 100px;
+    height: 13vh;
     width: 97%;
     border-bottom: 1px solid black;
     display: flex;
@@ -74,17 +77,19 @@ body{
     align-items: flex-end;
 }
 #text .line h3{
-    font-size: 12px;
+    font-size: 0.8vw;
     font-weight: lighter;
     color: #454444;
+    font-family: futura;
 }
 #text h3{
     font-size: 15px;
     font-weight: lighter;
     color: #282727;
+    font-family: futura;
 }
 #text .learn-underline:hover{
-    text-decoration: underline 1px solid black;
+    text-decoration: underline 4px solid rgb(226, 224, 224);
     cursor: pointer;
 }
 #page2{
@@ -113,8 +118,8 @@ body{
     scale: 1.2;
 }
 #page2 .elem .dets{
-    height: 50px;
-    width: 303px;
+    height: 6vh;
+    width: 20vw;
     background-color: #DCC0B4;
     position: absolute;
     border-radius: 50px;
@@ -123,30 +128,31 @@ body{
     align-items: center;
 }
 #page2 .elem .dets .inner-text1{
-    font-size: 10px;
+    font-size: 0.7vw;
     font-weight: 100;
     font-family: gilroy; 
-    letter-spacing: 2px; 
+    letter-spacing: 1px; 
     color: rgb(97, 97, 97); 
 }
 #page2 .elem .dets .inner-text2{
-    font-size: 10px;
+    font-size: 0.7vw;
     font-weight: lighter;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #454444;
+    font-family: gilroy; 
 }
 #page2 .elem .dets .dot{
-    font-size: 50px;
-    margin-bottom: 35px;
+    font-size: 10vh;
+    margin-bottom: 6vh;
 }
 #page2 .elem .dets .arrow{
-    height: 29px;
+    height: 3vh;
 }
 #page2 .elem .dets:hover{
     height: 200px;
 }
 #big-text {
-    height: 40vh;
+    height: 40vw;
     width: 100vw;
     /* background-color: red; */
     display: flex;
@@ -159,17 +165,19 @@ body{
     width: 50%;
 }
 #big-text .big h1{
-    font-size: 6.5vh;
+    font-size: 4vw;
     text-transform: uppercase;
     margin-top: 50px;
     margin-left: 25px;
+    font-family: futura;
+    
 }
 #big-text .small{
     height: 100%;
     width: 50%;
 }
 #big-text .small h4{
-    font-size: 1.7vh;
+    font-size: 1vw;
     font-weight: 10;
     margin-top: 50px;
     padding-left: 30vh;
@@ -200,13 +208,14 @@ body{
 #page3 .child{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10vh;
 }
 #page3 .child h2{
-    font-family: gilroy;
     letter-spacing: 1.5px;
     line-height: 25px;
-    font-size: 1.4vh;
+    font-size: 1vw;
     font-weight: 10;
+    
 }
 #page3 .child h3{
     font-family: gilroy;
@@ -268,7 +277,7 @@ body{
     font-weight: 10;
 }
 #nav-part2 #links a:hover{
-    text-decoration: underline 1px solid black;
+    text-decoration: underline 4px solid rgb(226, 224, 224);
 }
 #nav-part2 #icons i{
     font-size: 15px;
@@ -302,6 +311,10 @@ body{
     text-align: center;
     line-height: 9vh;
     margin-bottom: 10vh;
+    font-family: futura;
+}
+#page4 h1 span1{
+    color: rgb(185, 194, 198);
 }
 #page4 button{
     height: 60px;
@@ -339,6 +352,7 @@ body{
 }
 .enter h1{
     font-size: 6vh;
+    font-family: futura;
 }
 .enter{
     display: flex;
@@ -381,14 +395,13 @@ body{
 .main-footer .ndpart{
     height: 100%;
     width: 30%;
-
     display: flex;
     justify-content: center;
     align-items: start;
 }
 .main-footer .ndpart img{
-    height: 215px;
-    width: 215px;
+    height: 180px;
+    width: 180px;
 }
 .main-footer .rdpart{
     height: 100%;
@@ -524,6 +537,13 @@ body{
     font-weight: 100;
     font-size: 1.5vh;
     text-align: center;
+    line-height: 3vh;
+    }
+    #text .learn-underline{
+    margin-top: 4vh;
+    }
+    #text .line h3{
+        font-size: 2vw;
     }
     #page2 {
     height: 130rem;
@@ -556,6 +576,15 @@ body{
     background-color: #DCC0B4;
     border-radius: 50px;
     }
+    #page2 .elem .dets .inner-text1{
+        font-size: 3vw
+    }
+    #page2 .elem .dets .inner-text2{
+        font-size: 3vw;
+    }
+    #page2 .elem .dets .arrow{
+        height: 2.8vh;
+    }
     #big-text {
     height: 40vh;
     width: 100vw;
@@ -566,6 +595,7 @@ body{
     #big-text .big{
     height: 100%;
     width: 100%;
+    margin-bottom: 1vh;
     }
     #big-text .big h1{
     font-size: 30px;
@@ -576,6 +606,7 @@ body{
     #big-text .small{
     height: 100%;
     width: 100%;
+    margin-bottom:5vh;
     }
     #big-text .small h4{
     font-size: 15px;
@@ -596,6 +627,7 @@ body{
     flex-wrap: wrap;
     
 }
+
 .child{
     height: 19vh;
     width: 50vw;
@@ -607,19 +639,18 @@ body{
 #page3 .child{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
 }
 #page3 .child h2{
-    font-family: gilroy;
     line-height: 15px;
-    font-size: 15px;
-    font-weight: 10;
+    font-size: 1.3vh;
     margin-left: 15px ;
     margin-right: 15px;
     margin-bottom: 5px;
     margin-top: 10px;
 }
 #page3 .child h3{
-    font-family: gilroy;
 
     font-size: 15px;
     font-weight: 10;
@@ -627,5 +658,127 @@ body{
 .child img{
     height: 100%;
 }
+#page3 #line-box h3{
+    font-family: gilroy;
+    font-size: 2vw;
+    font-weight: lighter;
+    color: #454444;
+    letter-spacing: 1px;
+    
+}
+#page3 #line-box{
+    margin-left: 1.5vw;
+}
+#page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -15vh;
+    padding: 7vh
+}
+#page4 h1{
+    font-size: 5vw;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2vh;
+    margin-bottom: 10vh;
+}
 
+#email-box{
+    height: 3vh;
+    width: 90%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* margin-left: 2.5vh;  */
+    margin-top: -15vh;
+   
+}
+.enter h1{
+    font-size: 7vw;
+    font-family: futura;
+}
+
+.enter i {
+    margin-left: 4vw;
+}
+
+
+
+.main-footer{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    margin-top: 10vh;
+    padding: 3vh;
+}
+.main-footer .stpart{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    line-height: 7vh;
+    color: rgb(118, 117, 117);
+}
+.main-footer .stpart a{
+    text-decoration: none;
+    line-height: 2.6vh;
+    color: #333;
+    font-size: 4vw;
+    font-weight: lighter;
+    width: 90px;
+}
+
+
+.main-footer .ndpart{
+    display: none;   
+}
+.main-footer .rdpart{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 7vh;
+    color: rgb(118, 117, 117);
+}
+.main-footer .rdpart a{
+    text-decoration: none;
+    line-height: 2.6vh;
+    color: #333;
+    font-size: 4vw;
+    font-weight: lighter;
+}
+.copyright{
+    display: flex;
+    gap: 5vh;
+    justify-content: center;
+    margin-top: 6vh;
+    color: rgb(118, 117, 117);
+}
+.copyright h3{
+    font-size: 2.8vw;
+    font-weight: lighter;
+}
+
+.last-footer{
+    padding: 0vh 1vw;
+}
+.last-footer p{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: lighter;
+    margin-top: 7vh;
+    font-family: gilroy;
+}
+#nav #nav-part1{
+    height: 69px;
+}
+#nav-part2 #links a{
+    font-size: 4vw;
+}
 }
